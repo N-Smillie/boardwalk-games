@@ -96,6 +96,27 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events Section */
+
+#events .student-discount p {
+    background-color: var(--highlight-color);
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#events {
+    display: flex;
+}
+
+#events .book-now-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -159,6 +180,10 @@ h2 {
 @media screen and (min-width: 768px) {
     #services .card-body {
         min-height: 191px;
+    }
+
+    #events .student-discount p {
+        max-width: 300px;
     }
 }
 
