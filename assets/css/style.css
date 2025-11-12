@@ -124,6 +124,12 @@ h2 {
     border: none;
 }
 
+/* Reservation Form */
+
+#reservation button {
+    float: right;
+}
+
 /* Footer/Contact */
 
 #contact {
@@ -184,6 +190,10 @@ h2 {
 
     #events .student-discount p {
         max-width: 300px;
+    }
+
+    #reservation {
+        max-width: 60%;
     }
 }
 
